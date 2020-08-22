@@ -1,0 +1,47 @@
+body{
+
+    background-color: aquamarine;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+.main{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    width: 300px;
+    margin: 200px auto;
+    background-color: white;
+    border-radius: 6px;
+    font-size: large;
+
+}
+
+.btn{
+  background-color:aquamarine;
+  color: black;
+  border: none;
+  width: 100px;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.btn:hover:not(:focus){
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    
+}
